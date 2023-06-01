@@ -1,5 +1,8 @@
+import exceptions.BusinessLogic;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        BusinessLogic businessLogic = new BusinessLogic();
+      businessLogic.account("19120", "1d","11");
     }
 }
