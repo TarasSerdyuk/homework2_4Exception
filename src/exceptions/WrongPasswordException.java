@@ -8,4 +8,8 @@ public class WrongPasswordException extends  RuntimeException {
     public WrongPasswordException(String message, Throwable cause) {
         super(message, cause);
     }
+
+    public WrongPasswordException() {
+
+    }
 }
